@@ -10,7 +10,7 @@ application {
 }
 mvcGroups {
     // MVC Group for "griffon-sandbox"
-    'griffon-sandbox' {
+    'griffonSandbox' {
         model      = 'griffon.sandbox.GriffonSandboxModel'
         view       = 'griffon.sandbox.GriffonSandboxView'
         controller = 'griffon.sandbox.GriffonSandboxController'

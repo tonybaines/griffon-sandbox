@@ -84,6 +84,9 @@
     </option>
     <option name="showMethodBody" value="true" />
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FindBugsConfigurable">
     <option name="make" value="true" />
     <option name="effort" value="default" />
