@@ -1,6 +1,6 @@
 package griffon.sandbox
 
-class GriffonSandboxController {
+class TwitterSearchController {
     // these will be injected by Griffon
     def model
     def view

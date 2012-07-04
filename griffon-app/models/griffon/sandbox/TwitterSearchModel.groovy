@@ -1,5 +1,5 @@
 package griffon.sandbox
 
-class GriffonSandboxModel {
+class TwitterSearchModel {
    @Bindable String hashTagResults
 }
