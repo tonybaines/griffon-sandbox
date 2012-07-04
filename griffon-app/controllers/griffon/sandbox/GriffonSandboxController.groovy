@@ -4,6 +4,7 @@ class GriffonSandboxController {
     // these will be injected by Griffon
     def model
     def view
+    def twitterRestService
 
     // void mvcGroupInit(Map args) {
     //    // this method is called after model and view are injected
@@ -21,4 +22,16 @@ class GriffonSandboxController {
     def action = { evt = null ->
     }
     */
+    def goGetIt = { evt = null ->
+        execOutsideUI {
+            def results = twitterRestService.goGetIt()
+            def messages = results.collect {result ->
+                result.text
+            }
+            model.hashTagResults = messages.join(',\n')
+        }
+    }
+    def quit = {
+        app.shutdown()
+    }
 }

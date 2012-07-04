@@ -3,6 +3,7 @@
 eclipse
 .idea/workspace.xml
 *.iws
+out
 /plugins
 .settings
 stacktrace.log
