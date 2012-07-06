@@ -1,6 +1,7 @@
 *Db.properties
 *Db.script
 eclipse
+.idea/misc.xml
 .idea/workspace.xml
 *.iws
 out
