@@ -1,7 +1,7 @@
 package griffon.sandbox
 
 application(title: 'griffon-sandbox',
-        preferredSize: [320, 240],
+        preferredSize: [500, 350],
         pack: true,
         //location: [50,50],
         locationByPlatform: true,
@@ -30,6 +30,7 @@ application(title: 'griffon-sandbox',
     menuBar {
         menu('File') {
             menuItem quitAction
+            menuItem fetchAction
         }
     }
     panel(border: emptyBorder(6)) {
